@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Crete+Round&family=DM+Serif+Text:ital@1&family=Heebo:wght@700;900&family=Istok+Web:wght@400;700&family=Lato&family=Libre+Franklin:wght@300;500&family=Manrope&family=Open+Sans:ital,wght@0,500;1,800&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Poppins:wght@200;400;600&family=Quicksand&family=Roboto+Condensed:wght@700&family=Varela+Round&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="font-poppins">
+    <!--Header-->
+    <section
+      class="text-different-white h-screen relative bg-gradient-to-b from-main-gradient-black to-main-gradient-end flex flex-col items-start justify-center"
+    >
+      <video
+        src="images/dentist-banner.mp4"
+        autoplay
+        loop
+        muted
+        class="object-cover absolute top-0 left-0 w-full h-full mix-blend-overlay"
+      ></video>
+
+      <!--Navbar-->
+      <div
+        class="lg:container mx-auto relative flex flex-col lg:flex-row items-center justify-between lg:pt-6 space-y-4 lg:space-y-0"
+      >
+        <a
+          href="#"
+          class="lg:text-4xl md:pl-0 text-4xl lg:mt-0 mt-2 font-bold text-transparent bg-gradient-to-r bg-clip-text from-gradient-blue to-main-blue"
+          >The Dentist</a
+        >
+
+        <nav class="flex justify-between font-bold">
+          <div
+            class="flex items-center text-sm lg:text-lg space-x-4 lg:space-x-6"
+          >
+            <a class="animation" href="#">Home</a>
+            <a class="animation" href="#">Services</a>
+            <a class="animation" href="#">About Us</a>
+            <a class="animation" href="#">Comany</a>
+            <a class="animation" href="#">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!--Content-->
+      <div
+        class="lg:container lg:mx-auto h-full w-full relative flex items-center justify-start lg:text-left"
+      >
+        <div class="lg:text-left text-center lg:basis-1/2 pr-0">
+          <h1 class="lg:text-6xl text-4xl font-bold tracking-wider">
+            The best
+            <span
+              class="text-transparent bg-gradient-to-r bg-clip-text from-gradient-blue to-main-blue"
+            >
+              dentist team</span
+            >
+            of California
+          </h1>
+          <p class="font-semibold tracking-wide text-sm lg:text-lg mt-8">
+            Company helped over
+            <span
+              class="after:h-1 after:w-full after:m-auto after:bg-main-blue after:left-0 after:content-between after:-bottom-1 after:absolute relative"
+              >1,000</span
+            >
+            patiences around USA
+          </p>
+          <!--Buttons-->
+          <div
+            class="space-x-8 flex items-center lg:justify-start justify-center relative mt-10"
+          >
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 bg-main-blue w-52 rounded-md hover:bg-transparent duration-500 border-solid border-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider"
+            >
+              Request Appoinment
+            </button>
+
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 bg-transparent w-52 rounded-md hover:bg-main-blue duration-500 border-solid border-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider"
+            >
+              Call (+1) 555 550 55 55
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Choose Us-->
+    <section
+      class="relative text-different-black bg-different-white card-animate duration-500"
+    >
+      <div
+        class="lg:w-full lg:mx-auto container h-full w-full relative flex items-center justify-center flex-wrap"
+      >
+        <div
+          class="flex items-center relative lg:justify-center basis-1/4 py-8 px-10"
+        >
+          <h1 class="card-h">
+            The Dentist <span class="text-main-blue">Differences</span>
+          </h1>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-face-smile text-3xl text-main-blue"></i>
+          <h2 class="card-h">Comfort</h2>
+          <div class="flex flex-col justify-between">
+            <p class="card-p">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-microchip text-3xl text-main-blue"></i>
+          <h2 class="card-h">Technology</h2>
+          <div class="flex flex-col justify-between">
+            <p class="card-p">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-leaf text-3xl text-main-blue"></i>
+          <h2 class="card-h">Quality</h2>
+          <div class="flex flex-col justify-between">
+            <p class="card-p">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex justify-center py-10 bg-different-white">
+      <div
+        class="w-full opacity-100 max-w-sm mt-5 mb-5 h-1px"
+        style="background-image: radial-gradient(circle, #3da5ff 15%, #f7f7f7)"
+      ></div>
+    </div>
+
+    <!--Team-->
+    <section class="relative text-different-black bg-different-white">
+      <div
+        class="lg:w-full lg:mx-auto flex-wrap h-full w-full relative flex items-center justify-center"
+      >
+        <div class="flex lg:flex-row flex-col items-center justify-center">
+          <div class="basis-1/2">
+            <img src="images/dentist-team.jpg" class="object-cover" alt="" />
+          </div>
+          <div
+            class="flex flex-col justify-start items-start basis-1/2 px-10 lg:mt-0 mt-10"
+          >
+            <h1 class="text-4xl font-bold">
+              Meet Our <span class="text-main-blue">Dentist Team</span>
+            </h1>
+            <p class="mt-3 opacity-80">
+              We help patients keep their teeth for life.
+            </p>
+            <p class="mt-5 opacity-80 lg:text-lg text-sm">
+              Our compassionate and skilled dental team is committed to helping
+              you achieve a healthy and beautiful smile. We love working
+              one-on-one with our patients to develop personalized treatment
+              plans that meet their goals.
+            </p>
+
+            <div
+              class="space-x-8 flex items-center lg:justify-start justify-center relative mt-10"
+            >
+              <button
+                type="button"
+                class="lg:py-4 lg:px-2 py-3 px-1 bg-main-blue w-44 rounded-md hover:bg-transparent duration-500 text-white hover:text-main-blue border-solid border-main-blue border-2 cursor-pointer font-bold text-sm"
+              >
+                Meet the Team
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services-->
+    <section class="relative text-different-black py-20 bg-grey-tone">
+      <div
+        class="lg:container lg:mx-auto flex-wrap relative flex items-center justify-between"
+      >
+        <div class="text-center lg:px-0 px-4 w-full">
+          <h1 class="lg:text-5xl text-3xl font-semibold">
+            Comprehensive care, one convenient location
+          </h1>
+        </div>
+
+        <div class="services">
+          <div class="h-350px bg-cover bg-center relative">
+            <img
+              src="images/photo-1.jpg"
+              class="object-cover h-full w-full rounded-md"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <h1 class="text-2xl font-semibold">General</h1>
+            <p class="services-p">
+              Everything you expect and then some. Cleanings, fillings, and
+              x-rays are just the beginning.
+            </p>
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 mt-10 bg-main-blue w-52 text-white rounded-md hover:bg-transparent hover:text-main-blue duration-500 border-solid border-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="services">
+          <div class="h-350px bg-cover bg-center relative">
+            <img
+              src="images/photo-1.jpg"
+              class="object-cover h-full w-full rounded-md"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <h1 class="text-2xl font-semibold">Cosmetic</h1>
+            <p class="services-p">
+              Everything you expect and then some. Cleanings, fillings, and
+              x-rays are just the beginning.
+            </p>
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 mt-10 bg-main-blue w-52 text-white rounded-md hover:bg-transparent hover:text-main-blue duration-500 border-solid border-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="services">
+          <div class="h-350px bg-cover bg-center relative">
+            <img
+              src="images/photo-1.jpg"
+              class="object-cover h-full w-full rounded-md"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <h1 class="text-2xl font-semibold">Surgical</h1>
+            <p class="services-p">
+              Everything you expect and then some. Cleanings, fillings, and
+              x-rays are just the beginning.
+            </p>
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 mt-10 bg-main-blue w-52 text-white rounded-md hover:bg-transparent hover:text-main-blue duration-500 border-solid border-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--İdk-->
+    <section
+      class="relative text-different-black h-80vh flex flex-col items-start justify-center"
+    >
+      <img
+        src="images/second-banner.jpg"
+        alt=""
+        class="object-cover object-center absolute w-full h-full mix-blend-overlay"
+      />
+
+      <!--Content-->
+      <div class="lg:container lg:mx-auto flex justify-end items-center h-full">
+        <div
+          class="relative flex items-center lg:text-center drop-shadow-2xl bg-grey-tone py-6 px-20 lg:rounded-md rounded-none h-4/6"
+        >
+          <div class="text-left">
+            <p class="font-semibold opacity-80 mt-3">FREE WHITENING</p>
+            <h1 class="lg:text-5xl text-3xl font-bold mt-4">
+              Whitening for life
+            </h1>
+            <div class="space-y-2 mt-3 lg:text-lg text-sm">
+              <div class="space-x-2 flex items-center">
+                <i class="fa-solid fa-check text-green-500 text-xl"></i>
+                <p class="font-semibold opacity-80">
+                  Visit Village Dental for a new patient cleaning & exam
+                </p>
+              </div>
+              <div class="space-x-2 flex items-center">
+                <i class="fa-solid fa-check text-green-500 text-xl"></i>
+                <p class="font-semibold opacity-80">
+                  Take home a complimentary custom whitening kit
+                </p>
+              </div>
+              <div class="space-x-2 flex items-center">
+                <i class="fa-solid fa-check text-green-500 text-xl"></i>
+                <p class="font-semibold opacity-80">
+                  Book a cleaning every 6 months and we'll refill your whitening
+                  gel
+                </p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="lg:py-4 lg:px-2 py-3 px-1 bg-main-blue w-52 text-white rounded-md hover:bg-transparent duration-500 border-solid border-main-blue hover:text-main-blue border-2 cursor-pointer font-bold text-sm lg:text-sm tracking-wider mt-10"
+            >
+              Book Online
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- No Surprise-->
+    <section
+      class="py-20 flex flex-col items-start justify-center card-animate duration-500"
+    >
+      <div
+        class="lg:container lg:mx-auto flex justify-center items-center h-full"
+      >
+        <div class="flex lg:flex-row flex-col w-full">
+          <div
+            class="basis-1/2 text-main-blue py-20 px-10 flex flex-col justify-center items-start text-left border-2 border-solid border-main-blue lg:rounded-s-md"
+          >
+            <i class="fa-solid fa-tag lg:text-4xl text-3xl"></i>
+            <p class="text-sm opacity-80 mt-3 uppercase">TRANSPARENT PRICING</p>
+            <h1 class="lg:text-4xl text-3xl font-bold mt-3">No Surprises</h1>
+            <p class="opacity-80 mt-4 pr-20 lg:text-lg text-sm">
+              Our team believes in accessible dental care. We offer
+              straightforward pricing, clear estimates, and an unprecedented
+              dental warranty. Keep up with your routine 6-month checkups and if
+              something needs fixing, we’ll handle it at no cost to you.
+            </p>
+          </div>
+          <div
+            class="basis-1/2 py-20 px-10 text-different-white flex flex-col justify-start items-start text-left bg-main-blue lg:rounded-e-md"
+          >
+            <i class="fa-solid fa-house-crack tlg:text-4xl text-3xl"></i>
+            <p class="text-sm opacity-80 mt-3 uppercase">Insurance Guarentee</p>
+            <h1 class="lg:text-4xl text-3xl font-bold mt-3">Insurance</h1>
+            <p class="opacity-80 mt-4 pr-20 lg:text-lg text-sm">
+              Our office is in-network with Delta Premier and bills all other
+              providers. Our team will explain how your specific dental benefits
+              apply to the cost of treatment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section
+      class="py-20 flex flex-col items-start lg:justify-center justify-center bg-different-white text-different-black card-animate duration-500"
+    >
+      <div
+        class="lg:container mx-auto flex flex-col lg:justify-center justify-start items-center h-full space-y-14 flex-wrap"
+      >
+        <div
+          class="flex lg:flex-row flex-col items-center justify-center relative"
+        >
+          <div class="basis-1/2">
+            <img src="images/dentist-place.jpg" alt="" class="object-cover" />
+          </div>
+          <div
+            class="flex flex-col justify-start items-start basis-1/2 px-10 lg:mt-0 mt-10"
+          >
+            <h1 class="lg:text-5xl text-3xl font-bold">Visit Us</h1>
+            <p class="opacity-80 mt-5 lg:text-lg text-sm">
+              We’re conveniently located in the Denver Tech Center area. Find us
+              on the 4th floor of the Triad Office Park building. Plenty of free
+              parking available.
+            </p>
+            <div class="flex flex-col space-y-4 mt-6">
+              <div class="flex items-center space-x-4">
+                <i
+                  class="fa-solid fa-map text-main-blue lg:text-3xl text-xl"
+                ></i>
+                <p class="opacity-80 lg:text-lg text-sm">
+                  5670 Greenwood Plaza Blvd., Suite 404
+                </p>
+              </div>
+              <div class="flex space-x-4 items-center">
+                <i
+                  class="fa-solid fa-clock text-main-blue lg:text-3xl text-xl"
+                ></i>
+                <p class="opacity-80 lg:text-lg text-sm">
+                  Monday–Thursday: 7AM–3PM
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-500px lg:container mx-auto">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.36595650914!2d-6.410512542466168!3d53.3244116302835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin%2C%20%C4%B0rlanda!5e0!3m2!1str!2str!4v1696012811620!5m2!1str!2str"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="w-full"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section
+      class="bg-white font-poppins py-20 text-black border-t-2 border-solid border-different-black"
+    >
+      <div class="lg:container relative lg:mx-auto overflow-hidden">
+        <div class="flex items-center">
+          <div class="basis-1/4 space-y-4 text-center">
+            <p class="font-semibold">Social Medias</p>
+            <div class="w-full space-x-4 flex justify-center">
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+          <ul class="basis-1/4 space-y-2 text-center">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Jobs</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Docs</a
+              >
+            </li>
+          </ul>
+          <ul class="basis-1/4 space-y-2 text-center">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Terms and Experience</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Cookie Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+          <ul class="basis-1/4 space-y-2 text-center">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Sign Up for Emails</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Media Room</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Get Social</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

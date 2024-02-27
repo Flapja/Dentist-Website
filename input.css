@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation {
+  @apply hover:after:w-full inline-block relative after:duration-500 after:ease-linear after:h-1 after:w-0 after:m-auto after:bg-main-blue after:left-0 after:content-between after:-bottom-2px after:absolute;
+}
+
+.card {
+  @apply flex flex-col items-center relative lg:justify-center basis-1/4  py-8 px-10 text-center space-y-3 bg-different-white;
+}
+
+.card-p {
+  @apply font-bold opacity-50 lg:text-lg text-sm;
+}
+
+.card-h {
+  @apply text-4xl  font-bold;
+}
+
+.services {
+  @apply flex flex-col justify-start space-y-6 mx-auto relative w-388px py-6 px-6 hover:bg-white hover:drop-shadow-xl hover:-translate-y-5 duration-500 bg-grey-tone rounded-lg overflow-hidden lg:mt-20 mt-10 cursor-pointer h-633.2px;
+}
+
+.services-p {
+  @apply mt-3 opacity-80 lg:text-lg text-sm;
+}
+
+.card-animate {
+  @apply opacity-50 translate-y-20;
+}
+
+.change {
+  @apply opacity-100 translate-y-0;
+}
